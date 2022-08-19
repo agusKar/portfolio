@@ -1,0 +1,35 @@
+#AboutMe {
+  img.img_personal {
+    width: 8rem;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #252525;
+    opacity: 0.95;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  p {
+    color: $light-text-primary;
+    font-size: 0.8rem;
+  }
+  .technologies {
+    img {
+      width: 2.5rem;
+    }
+  }
+}
+@media screen and (min-width: 550px) {
+  #AboutMe {
+    img.img_personal {
+      width: 15rem;
+    }
+    .technologies {
+      img {
+        width: 5rem;
+      }
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}

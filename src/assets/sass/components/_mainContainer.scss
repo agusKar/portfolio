@@ -1,0 +1,56 @@
+.bg-glass {
+  position: relative;
+  .circle1 {
+    position: absolute;
+    top: -50px;
+    left: -40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    background: linear-gradient(134deg, $dark-bg-primary, $light-bg-primary);
+    z-index: 2;
+    transform: rotate(340deg);
+    box-shadow: 0 0 15px $light-bg-primary;
+  }
+  .circle3 {
+    position: absolute;
+    bottom: -55px;
+    right: -10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    background: linear-gradient(
+      134deg,
+      rgb(158 120 202 / 70%),
+      $dark-bg-secondary
+    );
+    z-index: 2;
+    transform: rotate(340deg);
+    box-shadow: 0 0 15px $dark-bg-secondary;
+    z-index: 2;
+    opacity: 0.8;
+  }
+  & .container {
+    min-height: 90vh;
+    width: 90%;
+    padding: 0;
+    position: relative;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(1em);
+    margin-top: 20px;
+    border-radius: 25px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .bg-glass {
+    & .container {
+      margin-bottom: 100px;
+    }
+  }
+}
