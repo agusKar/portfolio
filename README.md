@@ -1,7 +1,9 @@
 # Agustin Karkocki
+
 ## _My personal Portfolio_
 
 This is my personal portoflio, here you can see my experience, latest works and more.
+
 ## Tech
 
 In this page I used:
@@ -10,6 +12,7 @@ In this page I used:
 - [Typescript] - Add additional syntax to JavaScript to support a tighter integration with your editor.
 - [Twitter Bootstrap] - great UI boilerplate for modern web apps.
 - [Sass] - the most mature, stable, and powerful professional grade CSS extension language in the world.
+- [EmailJs] - To Send Email Directly From JavaScript.
 
 ## Installation
 

@@ -1,0 +1,49 @@
+form#contactMe {
+  & input.form-control,
+  & textarea {
+    background: transparent;
+    color: $light-text-primary;
+    border-radius: 45px;
+  }
+  & textarea {
+    height: 8rem;
+    min-height: 6rem;
+  }
+  .form-floating > label {
+    left: 1rem;
+    width: calc(100% - 1rem);
+  }
+  & button.btn {
+    background: linear-gradient(
+      to right,
+      $light-bg-secondary,
+      $light-bg-primary
+    );
+    color: $light-text-primary;
+    line-height: 1.5rem;
+    border-radius: 45px;
+    font-size: 1rem;
+    border: none;
+    animation: all ease 2s;
+    &:focus,
+    &:active,
+    &:hover {
+      animation: all ease 2s;
+      border: none;
+      box-shadow: 0 0 10px $light-bg-secondary;
+    }
+  }
+  .alert-success-glass {
+    background: linear-gradient(
+      to right,
+      rgba(30, 181, 45, 0.8),
+      rgba(44, 201, 63, 0.6)
+    );
+    box-shadow: 0 0 10px rgba(44, 201, 63, 0.5);
+    border-radius: 45px;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+  }
+}
