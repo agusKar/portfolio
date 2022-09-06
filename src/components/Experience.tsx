@@ -1,15 +1,14 @@
 import simplistic_logo from "../assets/simplistic_logo.png";
 import nomade_logo from "../assets/nomade_logo.png";
 import codeImg from "../assets/code.webp";
+import { useTranslation } from "react-i18next";
 const Experience = () => {
+  const { t } = useTranslation("translation");
   return (
     <div className="row">
       <div className="col-12 text-center mb-4">
-        <h1>Experience</h1>
-        <p>
-          Trabajé en más de 150 sitios en mi carrera con diversas tecnologías,
-          aquí dejo un resumen de mis años como programador:
-        </p>
+        <h1>{t("experience.title")}</h1>
+        <p>{t("experience.description")}</p>
       </div>
       <div className="col-md-12">
         <div className="main-timeline">
@@ -26,9 +25,7 @@ const Experience = () => {
               <h3 className="title">
                 Front End - <b>Simplistic</b>
               </h3>
-              <p className="description">
-                Web developer con Shopify usando HTML, CSS, JS & Vue
-              </p>
+              <p className="description">{t("experience.job1_desc")}</p>
             </div>
           </div>
           <div className="timeline">
@@ -44,12 +41,7 @@ const Experience = () => {
               <h3 className="title">
                 Full Stack - <b>Mardelnet</b>
               </h3>
-              <p className="description">
-                Diseño y maquetación web. Desarrollo de Backends utilizando
-                WordPress. Plugins y themes a medida. Optimización. Tecnologías
-                utilizadas: html5 - CSS - JavaScript - Wordpress - PHP & MySql -
-                API - AMP
-              </p>
+              <p className="description">{t("experience.job2_desc")}</p>
             </div>
           </div>
           <div className="timeline">
@@ -65,13 +57,7 @@ const Experience = () => {
               <h3 className="title">
                 Full Stack - <b>Agencia Nomade</b>
               </h3>
-              <p className="description">
-                Me dedique a toda la parte de: Diseño web y Programación
-                (Frontend y Backend). Actualizado de sitios. Desarrollo de un
-                panel administrativo para la auto-gestión del sitio.
-                Optimización y mejoras de SEO Tecnologías usadas: HTML, CSS, JS,
-                JQUERY, AJAX, PHP, SQL.
-              </p>
+              <p className="description">{t("experience.job3_desc")}</p>
             </div>
           </div>
           <div className="timeline">
@@ -87,11 +73,7 @@ const Experience = () => {
               <h3 className="title">
                 Full Stack - <b>Freelance</b>
               </h3>
-              <p className="description">
-                Sitios web auto-gestionables, por ejemplo Wordpress o un panel
-                administrativo con su respectiva base de datos hecho totalmente
-                a medida, posicionamiento web y optimizacion de sitios.
-              </p>
+              <p className="description">{t("experience.job4_desc")}</p>
             </div>
           </div>
         </div>

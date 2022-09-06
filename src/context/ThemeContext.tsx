@@ -7,6 +7,8 @@ interface ThemeContextType {
   changeTheme: (theme: themeType) => void;
   containerName: String;
   containerNameFN: (containerName: string) => void;
+  lang: string;
+  setLang: (lang: string) => void;
 }
 
 interface props {
@@ -23,6 +25,8 @@ export const ThemeProvider = ({ children }: props) => {
       ? (window.localStorage.getItem("theme") as string)
       : "light"
   );
+
+  const [lang, setLang] = useState<string>("");
 
   const [innerContainer, setInnerContainer] = useState<string>("about-me");
 
@@ -49,6 +53,8 @@ export const ThemeProvider = ({ children }: props) => {
         changeTheme: setThemeMode,
         containerName: innerContainer,
         containerNameFN: setInnerContainer,
+        lang,
+        setLang,
       }}
     >
       {children}

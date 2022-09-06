@@ -1,6 +1,7 @@
 import emailjs from "@emailjs/browser";
 import { FormikErrors, useFormik } from "formik";
 import { useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 interface valuesForm {
   user_email: string;
@@ -34,6 +35,7 @@ const validate = (values: valuesForm) => {
 const Contact = () => {
   const [emailConfirm, setEmailConfirm] = useState<boolean>(false);
   const [formSending, setFormSending] = useState<boolean>(false);
+  const { t } = useTranslation("translation");
   const form = useRef<HTMLFormElement>(null);
 
   const formik = useFormik({
@@ -71,7 +73,7 @@ const Contact = () => {
   return (
     <div className="row">
       <div className="col-12 text-center">
-        <h1>Contactate conmigo</h1>
+        <h1>{t("contact.title")}</h1>
       </div>
       <div className="col-12 col-md-10 mx-auto">
         <form id="contactMe" ref={form} onSubmit={formik.handleSubmit}>
@@ -89,7 +91,7 @@ const Contact = () => {
                   formik.errors.user_name && "is-invalid"
                 }`}
               />
-              <label htmlFor="user_name">Nombre</label>
+              <label htmlFor="user_name">{t("contact.input_name")}</label>
 
               {formik.errors.user_name ? (
                 <div className="py-2 px-1 text-danger">
@@ -130,7 +132,7 @@ const Contact = () => {
                 rows={19}
                 placeholder="Mensaje"
               />
-              <label htmlFor="user_message">Mensaje</label>
+              <label htmlFor="user_message">{t("contact.input_msg")}</label>
 
               {formik.errors.user_message ? (
                 <div className="py-2 px-1 text-danger">
@@ -145,21 +147,23 @@ const Contact = () => {
             >
               {formSending ? (
                 <>
-                  Enviando
+                  {t("contact.msg_loading")}
                   <span
                     className="spinner-border spinner-border-sm ms-2"
                     role="status"
                     aria-hidden="true"
                   ></span>
-                  <span className="visually-hidden">Loading...</span>
+                  <span className="visually-hidden">
+                    {t("contact.msg_loading")}
+                  </span>
                 </>
               ) : (
-                "Enviar"
+                t("contact.input_btn")
               )}
             </button>
             {emailConfirm && (
               <div className="alert alert-success-glass mt-4">
-                Envio satisfactorio
+                {t("contact.msg_success")}
               </div>
             )}
           </div>

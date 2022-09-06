@@ -13,6 +13,8 @@ In this page I used:
 - [Twitter Bootstrap] - great UI boilerplate for modern web apps.
 - [Sass] - the most mature, stable, and powerful professional grade CSS extension language in the world.
 - [EmailJs] - To Send Email Directly From JavaScript.
+- [Formik] - Validation and formatting forms.
+- [I18next] - I18next is an internationalization-framework written in and for JavaScript..
 
 ## Installation
 

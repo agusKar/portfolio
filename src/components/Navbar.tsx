@@ -4,8 +4,10 @@ import inboxImg from "../assets/inbox.webp";
 import portfolioImg from "../assets/portfolio.webp";
 import userImg from "../assets/user.webp";
 import { ThemeContext } from "../context/ThemeContext";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  // const { i18n } = useTranslation("translation");
   const { containerNameFN } = useContext(ThemeContext);
   const handleNavLink = (e: React.MouseEvent<HTMLElement>, section: string) => {
     const navLinks = document.querySelectorAll(".navLink");
@@ -16,8 +18,13 @@ const Navbar = () => {
     });
     containerNameFN(section);
   };
+  // const changeLanguage = (lng: string) => {
+  //   i18n.changeLanguage(lng);
+  // };
   return (
     <nav>
+      {/* <button onClick={() => changeLanguage("es")}>es</button>
+      <button onClick={() => changeLanguage("en")}>en</button> */}
       <ul>
         <li
           className="navLink active"

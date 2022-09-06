@@ -1,64 +1,42 @@
 import img_personal from "../assets/img_personal.jpg";
-import js_logo from "../assets/js_logo.png";
-import mysql_logo from "../assets/mysql_logo.png";
-import next_logo from "../assets/next_logo.png";
-import nuxt_logo from "../assets/nuxt_logo.png";
-import php_logo from "../assets/php_logo.png";
-import react_logo from "../assets/react_logo.png";
-import git_logo from "../assets/git_logo.png";
-import bootstrap_logo from "../assets/bootstrap_logo.png";
-import tailwind_logo from "../assets/tailwind_logo.png";
-import sass_logo from "../assets/sass_logo.png";
-import shopify_logo from "../assets/shopify_logo.png";
-import ts_logo from "../assets/ts_logo.png";
-import vuex_logo from "../assets/vuex_logo.png";
-import vue_logo from "../assets/vue_logo.png";
-import wordpress_logo from "../assets/wordpress_logo.png";
+import js_logo from "../assets/techs/js_logo.png";
+import mysql_logo from "../assets/techs/mysql_logo.png";
+import next_logo from "../assets/techs/next_logo.png";
+import nuxt_logo from "../assets/techs/nuxt_logo.png";
+import php_logo from "../assets/techs/php_logo.png";
+import react_logo from "../assets/techs/react_logo.png";
+import git_logo from "../assets/techs/git_logo.png";
+import bootstrap_logo from "../assets/techs/bootstrap_logo.png";
+import tailwind_logo from "../assets/techs/tailwind_logo.png";
+import sass_logo from "../assets/techs/sass_logo.png";
+import shopify_logo from "../assets/techs/shopify_logo.png";
+import ts_logo from "../assets/techs/ts_logo.png";
+import vuex_logo from "../assets/techs/vuex_logo.png";
+import vue_logo from "../assets/techs/vue_logo.png";
+import wordpress_logo from "../assets/techs/wordpress_logo.png";
+import { Trans, useTranslation } from "react-i18next";
 
 const AboutMe = () => {
+  const { t } = useTranslation("translation");
   return (
     <div id="AboutMe">
       <div className="row mb-2">
         <div className="col-12 text-center">
-          <h1>Sobre mí</h1>
+          <h1>{t("about-me.title")}</h1>
           <img
             src={img_personal}
             className="img_personal mb-4"
             alt="My photo - Agustin Karkocki"
           />
-          <p>
-            Me llamo Agustín Karkocki y soy programador Front End. Estudié en la
-            UTN (Universidad Tecnólogica Nacional) en Argentina y me recibí en
-            2017. Desde 2016 trabajo como programador freelance y también en
-            empresas argentinas e internacionales. Me gusta mucho el diseño y
-            siempre trato de mejorar en ese aspecto aprendiendo herramientas
-            como Photoshop, Figma, etc. y viendo nuevos trends por ejemplo.
-          </p>
-          <p>
-            Por muchos años programé con lenguajes Back End como PHP y MYsql,
-            desarrollando CMS propios para la carga de novedades, productos,
-            personal, etc. en base de datos.
-          </p>
-          <p>
-            También trabajé con Wordpress creando mis propios plugins y temas de
-            0. Usé Shopify complementandolo junto a <b>Vue</b> por casi 1 año en
-            una empresa estadounidense donde mejore mucho mi conocimiento sobre
-            Javascript, Pixel Perfect en el diseño y muchos métodos para mejorar
-            la accesibilidad y análisis de un sitio web.
-          </p>
-          <p>
-            Actualmente estoy totalmente enfocado al desarrollo Front End
-            utilizando <b>React</b> principalmente. Mi próximo objetivo es{" "}
-            <b>Redux</b>.
-          </p>
+          <Trans components={{ p: <p />, b: <b /> }}>
+            {t("about-me.description")}
+          </Trans>
           <hr />
         </div>
       </div>
       <div className="row text-center technologies mt-3">
         <div className="col-12">
-          <p className="mb-4">
-            Estas son algunas de las tecnologías que uso en mi día a día:
-          </p>
+          <p className="mb-4">{t("about-me.title_techs")}</p>
         </div>
         <div
           className="col-4 col-md-3 mb-5 d-flex justify-content-center align-items-center"
@@ -111,7 +89,7 @@ const AboutMe = () => {
       </div>
       <div className="row text-center technologies mt-2">
         <div className="col-12">
-          <p className="mb-4">Y estas son otras tecnologías que usé:</p>
+          <p className="mb-4">{t("about-me.title_techs2")}</p>
         </div>
         <div
           className="col-3 col-md-2 mb-5 d-flex justify-content-center align-items-center"

@@ -1,0 +1,29 @@
+{
+  "about-me": {
+    "title": "About me",
+    "description": "<p>Me llamo Agustín Karkocki y soy programador Front End.  Estudié en la UTN (Universidad Tecnólogica Nacional) en Argentina y me recibí en 2017. Desde 2016 trabajo como programador freelance y también en empresas argentinas e internacionales. Me gusta mucho el diseño y siempre trato de mejorar en ese aspecto aprendiendo herramientas como Photoshop, Figma, etc. y viendo nuevos trends por ejemplo. </p><p>Por muchos años programé con lenguajes Back End como PHP y MYsql, desarrollando CMS propios para la carga de novedades, productos, personal, etc. en base de datos.</p><p> También trabajé con Wordpress creando mis propios plugins y temas de 0. Usé Shopify complementandolo junto a <b>Vue</b> por casi 1 año en una empresa estadounidense donde mejore mucho mi conocimiento sobre Javascript, Pixel Perfect en el diseño y muchos métodos para mejorar la accesibilidad y análisis de un sitio web.</p><p>Actualmente estoy totalmente enfocado al desarrollo Front End utilizando <b>React</b> principalmente. Mi próximo objetivo es <b>Redux</b>.</p>",
+    "title_techs":"These are some of the technologies I use on a daily basis:",
+    "title_techs2":"And these are other technologies I used:"
+  },
+  "experience":{
+    "title": "Experience",
+    "description": "I worked at least 150 sites in my career with differents technologies, here is my resumen of my programmer's years.",
+    "job1_desc": "Web developer with Shopify using HTML, CSS, JS & Vue",
+    "job2_desc": "Diseño y maquetación web. Desarrollo de Backends utilizando WordPress. Plugins y themes a medida. Optimización. Tecnologías utilizadas: html5 - CSS - JavaScript - Wordpress - PHP & MySql - API - AMP",
+    "job3_desc": "Me dedique a toda la parte de: Diseño web y Programación (Frontend y Backend). Actualizado de sitios. Desarrollo de un panel administrativo para la auto-gestión del sitio. Optimización y mejoras de SEO Tecnologías usadas: HTML, CSS, JS, JQUERY, AJAX, PHP, SQL.",
+    "job4_desc": "Sitios web auto-gestionables, por ejemplo Wordpress o un panel administrativo con su respectiva base de datos hecho totalmente a medida, posicionamiento web y optimizacion de sitios."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "description": "And more of 100 made to agencies!",
+    "text_link": "Others projects made with"
+  },
+  "contact": {
+    "title": "Contact me",
+    "input_name": "Name",
+    "input_msg": "Message",
+    "input_btn": "Send",
+    "msg_loading": "Sending...",
+    "msg_success": "Successful send"
+  }
+}

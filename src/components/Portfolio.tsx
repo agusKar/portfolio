@@ -1,10 +1,92 @@
+import { t } from "i18next";
+import { useState } from "react";
+import Work from "./Work";
+import { useTranslation } from "react-i18next";
+
+interface work {
+  id: number;
+  name: string;
+  descEs: string;
+  descEn: string;
+  tech: string;
+  image: string;
+  target: string;
+}
+
+const worksArray: work[] = [
+  {
+    id: 1,
+    name: "Kar Books",
+    descEs:
+      "Este ecommerce se especializa en la venta de libros y fue realizado como ejercicio para la practica profesional.",
+    descEn:
+      "Este ecommerce se especializa en la venta de libros y fue realizado como ejercicio para la practica profesional.",
+    tech: "React, Context, Bootstrap",
+    image: "karbooks.png",
+    target: "https://bookstore-89cc9.web.app/",
+  },
+  {
+    id: 2,
+    name: "Agencia Nomade",
+    descEs:
+      "Primera agencia donde trabaje, estuve a cargo de su propia pagina y más de 80 sitios.",
+    descEn:
+      "Primera agencia donde trabaje, estuve a cargo de su propia pagina y más de 80 sitios.",
+    tech: "Bootstrap, css, Javascript",
+    image: "agencia_nomade.png",
+    target: "https://agencianomade.com.ar/",
+  },
+  {
+    id: 3,
+    name: "Amek",
+    descEs: "Sitio hecho a medida con bootstrap.",
+    descEn: "Sitio hecho a medida con bootstrap.",
+    tech: "Bootstrap, css, Javascript",
+    image: "amek.png",
+    target: "https://amekgroup.com/",
+  },
+  {
+    id: 4,
+    name: "Grupo E&D",
+    descEs: "Sitio hecho a medida con bootstrap.",
+    descEn: "Sitio hecho a medida con bootstrap.",
+    tech: "Bootstrap, css, Javascript",
+    image: "e&d.png",
+    target: "http://www.grupoeyd.com.ar/",
+  },
+];
 const Portfolio = () => {
+  const [works, setWorks] = useState(worksArray);
+  const { t } = useTranslation("translation");
   return (
-    <div className="row">
-      <div className="col-12 text-center">
-        <h1>Portfolio</h1>
+    <>
+      <div className="row">
+        <div className="col-12 text-center">
+          <h1>Portfolio</h1>
+        </div>
       </div>
-    </div>
+      <div className="row">
+        {works.length > 0 &&
+          works.map((singleWork) => (
+            <Work key={singleWork.id} {...singleWork} />
+          ))}
+      </div>
+      <div className="row">
+        <div className="col-12">
+          <p className="text-center">{t("portfolio.description")}</p>
+          <p className="text-center">
+            {t("portfolio.text_link") + " "}
+            <a
+              href="https://github.com/agusKar/"
+              target="_blank"
+              className="color-hover"
+            >
+              React & Vue
+            </a>
+          </p>
+        </div>
+      </div>
+    </>
   );
 };
 
