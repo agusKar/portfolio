@@ -1,7 +1,7 @@
 {
   "about-me": {
     "title": "Sobre mí",
-    "description": "<p>Me llamo Agustín Karkocki y soy programador Front End.  Estudié en la UTN (Universidad Tecnólogica Nacional) en Argentina y me recibí en 2017. Desde 2016 trabajo como programador freelance y también en empresas argentinas e internacionales. Me gusta mucho el diseño y siempre trato de mejorar en ese aspecto aprendiendo herramientas como Photoshop, Figma, etc. y viendo nuevos trends por ejemplo. </p><p>Por muchos años programé con lenguajes Back End como PHP y MYsql, desarrollando CMS propios para la carga de novedades, productos, personal, etc. en base de datos.</p><p> También trabajé con Wordpress creando mis propios plugins y temas de 0. Usé Shopify complementandolo junto a <b>Vue</b> por casi 1 año en una empresa estadounidense donde mejore mucho mi conocimiento sobre Javascript, Pixel Perfect en el diseño y muchos métodos para mejorar la accesibilidad y análisis de un sitio web.</p><p>Actualmente estoy totalmente enfocado al desarrollo Front End utilizando <b>React</b> principalmente. Mi próximo objetivo es <b>Redux</b>.</p>",
+    "description": "<p>Me llamo Agustín Karkocki y soy programador Front End.  Estudié en la UTN (Universidad Tecnólogica Nacional) en Argentina y me recibí en 2017. Desde 2016 trabajo como programador freelance y también en empresas argentinas e internacionales. Me gusta mucho el diseño y siempre trato de mejorar en ese aspecto aprendiendo herramientas como Photoshop, Figma, etc. y viendo nuevos trends por ejemplo. </p><p>Por muchos años programé con lenguajes Back End como PHP y MYsql, desarrollando CMS propios para la carga de novedades, productos, personal, etc. en base de datos.</p><p> También trabajé con Wordpress creando mis propios plugins y temas de 0. Usé Shopify complementandolo junto a <b>Vue</b> por casi 1 año en una empresa estadounidense donde mejore mucho mí conocimiento sobre Javascript, Pixel Perfect en el diseño y muchos métodos para mejorar la accesibilidad y análisis de un sitio web.</p><p>Actualmente estoy totalmente enfocado al desarrollo Front End utilizando <b>React</b> principalmente. Mi próximo objetivo es <b>Redux</b>.</p>",
     "title_techs":"Estas son algunas de las tecnologías que uso en mi día a día:",
     "title_techs2":"Y estas son otras tecnologías que usé:"
   },
@@ -24,6 +24,6 @@
     "input_msg": "Mensaje",
     "input_btn": "Enviar",
     "msg_loading": "Enviando...",
-    "msg_success": "Envio satisfactorio"
+    "msg_success": "Envío satisfactorio"
   }
 }

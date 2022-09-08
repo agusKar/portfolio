@@ -55,7 +55,7 @@ const Experience = () => {
                 />
               </div>
               <h3 className="title">
-                Full Stack - <b>Agencia Nomade</b>
+                Full Stack - <b>Agencia Nómade</b>
               </h3>
               <p className="description">{t("experience.job3_desc")}</p>
             </div>

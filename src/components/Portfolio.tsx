@@ -18,9 +18,9 @@ const worksArray: work[] = [
     id: 1,
     name: "Kar Books",
     descEs:
-      "Este ecommerce se especializa en la venta de libros y fue realizado como ejercicio para la practica profesional.",
+      "Este ecommerce se especializa en la venta de libros y fué realizado como ejercicio para la práctica profesional.",
     descEn:
-      "Este ecommerce se especializa en la venta de libros y fue realizado como ejercicio para la practica profesional.",
+      "Este ecommerce se especializa en la venta de libros y fue realizado como ejercicio para la práctica profesional.",
     tech: "React, Context, Bootstrap",
     image: "karbooks.png",
     target: "https://bookstore-89cc9.web.app/",
@@ -29,7 +29,7 @@ const worksArray: work[] = [
     id: 2,
     name: "Agencia Nomade",
     descEs:
-      "Primera agencia donde trabaje, estuve a cargo de su propia pagina y más de 80 sitios.",
+      "Primera agencia donde trabajé, estuve a cargo de su propia página y más de 80 sitios.",
     descEn:
       "Primera agencia donde trabaje, estuve a cargo de su propia pagina y más de 80 sitios.",
     tech: "Bootstrap, css, Javascript",

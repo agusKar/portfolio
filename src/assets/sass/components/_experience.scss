@@ -168,7 +168,7 @@
 
     .timeline-icon,
     .timeline:nth-child(even) .timeline-icon {
-      width: auto;
+      // width: auto;
       transform: translateY(0) translateX(-50%);
       left: 50%;
       right: auto;
