@@ -20,7 +20,7 @@ const worksArray: work[] = [
     descEs:
       "Este ecommerce se especializa en la venta de libros y fué realizado como ejercicio para la práctica profesional.",
     descEn:
-      "Este ecommerce se especializa en la venta de libros y fue realizado como ejercicio para la práctica profesional.",
+      "This ecommerce specialized in books, was made as an exercise for professional practice.",
     tech: "React, Context, Bootstrap",
     image: "karbooks.png",
     target: "https://bookstore-89cc9.web.app/",
@@ -31,7 +31,7 @@ const worksArray: work[] = [
     descEs:
       "Primera agencia donde trabajé, estuve a cargo de su propia página y más de 80 sitios.",
     descEn:
-      "Primera agencia donde trabaje, estuve a cargo de su propia pagina y más de 80 sitios.",
+      "First agency where I worked, I made its own page and more than 80 sites.",
     tech: "Bootstrap, css, Javascript",
     image: "agencia_nomade.png",
     target: "https://agencianomade.com.ar/",
@@ -40,7 +40,7 @@ const worksArray: work[] = [
     id: 3,
     name: "Amek",
     descEs: "Sitio hecho a medida con bootstrap.",
-    descEn: "Sitio hecho a medida con bootstrap.",
+    descEn: "Custom site with bootstrap.",
     tech: "Bootstrap, css, Javascript",
     image: "amek.png",
     target: "https://amekgroup.com/",
@@ -49,7 +49,7 @@ const worksArray: work[] = [
     id: 4,
     name: "Grupo E&D",
     descEs: "Sitio hecho a medida con bootstrap.",
-    descEn: "Sitio hecho a medida con bootstrap.",
+    descEn: "Custom site with bootstrap.",
     tech: "Bootstrap, css, Javascript",
     image: "e&d.png",
     target: "http://www.grupoeyd.com.ar/",
