@@ -1,7 +1,7 @@
 {
   "about-me": {
     "title": "About me",
-    "description": "<p>Me llamo Agustín Karkocki y soy programador Front End.  Estudié en la UTN (Universidad Tecnólogica Nacional) en Argentina y me recibí en 2017. Desde 2016 trabajo como programador freelance y también en empresas argentinas e internacionales. Me gusta mucho el diseño y siempre trato de mejorar en ese aspecto aprendiendo herramientas como Photoshop, Figma, etc. y viendo nuevos trends por ejemplo. </p><p>Por muchos años programé con lenguajes Back End como PHP y MYsql, desarrollando CMS propios para la carga de novedades, productos, personal, etc. en base de datos.</p><p> También trabajé con Wordpress creando mis propios plugins y temas de 0. Usé Shopify complementandolo junto a <b>Vue</b> por casi 1 año en una empresa estadounidense donde mejore mucho mi conocimiento sobre Javascript, Pixel Perfect en el diseño y muchos métodos para mejorar la accesibilidad y análisis de un sitio web.</p><p>Actualmente estoy totalmente enfocado al desarrollo Front End utilizando <b>React</b> principalmente. Mi próximo objetivo es <b>Redux</b>.</p>",
+    "description": "<p>My fullname is Agustín Karkocki and I'm FrontEnd programmer. I studied at the UTN (Universidad Tecnólogica Nacional - National Technology University) in Argentina and I graduated in 2017. Since 2016 I worked as a freelance programmer and also in Argentine and international companies. I like to much design and always try to improve in that, learning technologies like Photoshop, Figma, etc. and seeing new trends for example. </p><p>For many years I used programming languajes like PHP and Mysql, developing customs CMS developing own CMS for loading news, products, personnel, etc. in database.</p><p> Also I worked with Wodpress developing my own plugins and themes from scratch. I used Shopify complementing it with Vue for almost 1 year in a US company where I improved a lot my knowledge about Javascript, Pixel Perfect in the design and many methods to improve the accessibility and analytics of a website. Currently I'm totally focused on Front End development using <b>React</b> mainly. My next goal is <b>Redux</b>.</p>",
     "title_techs":"These are some of the technologies I use on a daily basis:",
     "title_techs2":"And these are other technologies I used:"
   },
@@ -9,9 +9,9 @@
     "title": "Experience",
     "description": "I worked at least 150 sites in my career with differents technologies, here is my resumen of my programmer's years.",
     "job1_desc": "Web developer with Shopify using HTML, CSS, JS & Vue",
-    "job2_desc": "Diseño y maquetación web. Desarrollo de Backends utilizando WordPress. Plugins y themes a medida. Optimización. Tecnologías utilizadas: html5 - CSS - JavaScript - Wordpress - PHP & MySql - API - AMP",
-    "job3_desc": "Me dedique a toda la parte de: Diseño web y Programación (Frontend y Backend). Actualizado de sitios. Desarrollo de un panel administrativo para la auto-gestión del sitio. Optimización y mejoras de SEO Tecnologías usadas: HTML, CSS, JS, JQUERY, AJAX, PHP, SQL.",
-    "job4_desc": "Sitios web auto-gestionables, por ejemplo Wordpress o un panel administrativo con su respectiva base de datos hecho totalmente a medida, posicionamiento web y optimizacion de sitios."
+    "job2_desc": "Design web. Backends made with WordPress. Custom plugins and themes. Optimization. Technologies used: html5 - CSS - JavaScript - Wordpress - PHP & MySql - API - AMP",
+    "job3_desc": "I worked making: Desing and programmin web (Frontend and Backend). Updating websites. Developed custom CMS autoadministrable. Optimization and improves of SEO. Technologies used: HTML, CSS, JS, JQUERY, AJAX, PHP, SQL.",
+    "job4_desc": "Self-manageable websites, for example Wordpress or an administrative panel with its respective database completely custom-made, SEO and site optimization."
   },
   "portfolio": {
     "title": "Portfolio",
